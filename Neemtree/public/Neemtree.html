@@ -466,7 +466,12 @@ RISK MANAGEMENT</h4>
     <div class="container" >
         <div class="row justify-content-center ">
             
-            <form action="/contact" method="POST">
+            <form action="/contact" method="POST" id="contact-form"><input type="hidden" name="email" data-form-email="true" value="MzslviUV5fUwf75aROpZyskNCHPVioGjM3W1Tt/mo3QOb1b1P/ana5wx9EzyJx2WtOXSNRifscGwz8SNuVH+ULGK/dHWkat4RcqgiPrCQrcle6sUru63FFa76LIQfM5K">
+                <div class="row">
+                    <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Thanks for filling out the form!</div>
+                    <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">
+                    </div>
+                </div>
                 
             <div class="form-row">
                 <div class="form-group col-md-6">
@@ -483,7 +488,7 @@ RISK MANAGEMENT</h4>
                 <input name="message"  id="message-form1-1d" type="textarea" class="form-control" id="inputAddress" >
               </div>
               <div  style="display: flex; justify-content: center;">
-              <button type="submit"  class="btn btn-form btn-danger display-4" >SEND</button>
+              <button type="submit"  class="btn btn-form btn-danger display-4" onclick="alert('Form Submitted')" >SEND</button>
           </div>
         </form>
             <!-- <div class="media-container-column col-lg-8" data-form-type="formoid">
@@ -642,17 +647,14 @@ RISK MANAGEMENT</h4>
                     <a class="nav-link" href="Neemtree.html#contacts1-1l">Contact Us</a>
                     <a class="nav-link" href="ntaal.html" target="_blank">NT-AAL</a>
                   </nav>
-                    <!-- <a href="Neemtree.html#slider1-r">Home</a>&emsp;&emsp;
-                    <a href="Neemtree.html#content4-j">About Us </a>&emsp;&emsp;
-                    <a href="Neemtree.html#step3-11">Our Solutions</a>&emsp;&emsp;
-                    <a href="Neemtree.html#contacts1-1l">Contact Us</a>&emsp;&emsp; 
-                    <a href="ntaal.html" target="_blank">NT-AAL</a> -->
-                </p>
+                   
             </center>
         </div>
        
 </section>
 <script src="./js/mail.js"></script>
+
+
 
 
   <script src="assets/web/assets/jquery/jquery.min.js"></script>

@@ -29,15 +29,6 @@ app.post('/contact', (req, res) => {
 	return res.redirect('back');
 });
 
-// app.post('/vardaan', (req, res) => { 
-// 	email.orderDetails1(req);
-// })
-
-
-// app.post('/vatika', (req, res) => { 
-// 	email.orderDetails2(req);
-// })
-
 
   
 

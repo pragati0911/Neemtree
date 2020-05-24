@@ -9,10 +9,12 @@
 //     e.preventDefault();
 //     // do what ever you want to do here
 //     // i.e. perform a AJAX call
-// }
-$(document).ready(function() {
-    $(document).on('submit', '#contact-form', function() {
-      // do your things
-      return false;
-     });
-});
+// // }
+// $(document).ready(function() {
+//     $(document).on('submit', '#contact-form', function() {
+//     console.log('form submitted') ;
+//       window.alert('form submitted');
+//       // do your things
+//       return false;
+//      });
+// });

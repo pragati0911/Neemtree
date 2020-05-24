@@ -13,7 +13,7 @@ let transporter = nodemailer.createTransport({
     secure:false,
     auth :{
         user :'gargpragati9@gmail.com',
-        pass :'<password>'
+        pass :'Pragatigarg7503'
     }
 });
 var mailOptions = {
@@ -29,6 +29,7 @@ transporter.sendMail(mailOptions, (error, info) => {
       return console.log(error);
     }
   else{
+ 
     res.sendStatus(200);
   }
   return res.redirect('back');
