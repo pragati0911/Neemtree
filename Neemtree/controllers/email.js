@@ -13,7 +13,7 @@ let transporter = nodemailer.createTransport({
     secure:false,
     auth :{
         user :'gargpragati9@gmail.com',
-        pass :'<password>'
+        pass :'Pragatigarg7503'
     }
 });
 var mailOptions = {
@@ -21,7 +21,7 @@ var mailOptions = {
     to: 'gargpragati9@gmail.com',
     subject: `Message from ${req.body.name}`,
     text: 'Hey there, it’s our first message sent with Nodemailer ;) ', 
-    html: `Message : ${req.body.message}`
+    html: `Name : ${req.body.name} <br> Email : ${ req.body.email} <br> Message : ${req.body.message}`
 }
 
 transporter.sendMail(mailOptions, (error, info) => {
