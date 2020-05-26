@@ -7,4 +7,15 @@
         margin-right: auto;
         
     }
+
+    #nt img {
+        width:100vw;
+        height:50vh;
+    
+       
+    }
+}
+#nt{
+    width: 98.5vw;
+    height: 100vh;
 }
