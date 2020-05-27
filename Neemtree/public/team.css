@@ -10,11 +10,14 @@
    
 
     #nt img {
-        width:30vw;
+        /* width:30vw;
         height:50vh;
         margin-left: auto;
-        margin-right: auto;
-        
+        margin-right: auto; */
+        height: auto;
+        padding: 15%;
+      
+       padding-top: 22%;
     
        
     }
